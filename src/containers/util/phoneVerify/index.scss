@@ -1,0 +1,24 @@
+@import '../reset';
+//手机验证
+.xl-phone-verify{background: #fff;
+  .xl-phone-verify-item{@include borderBottom(1,rgba(0,0,0,0.05));display: flex;
+    .code-box{
+      flex: 1;display: flex;
+    }
+    p{height: 1rem;
+      &.icon-box{width: 1.04rem;display: flex;align-items: center;justify-content: center;
+        img{width: .38rem;height: .38rem;}
+      }
+      &.input-box{flex: 1;display: flex;align-items: center;
+        input{border: none;font-size: .32rem;width: 100%;
+          &:disabled{background: none}
+          &::-webkit-input-placeholder {color: #666;color: rgba(0,0,0,0.20);}
+        }
+      }
+      &.get-verify-btn{display: flex;font-size: .32rem;color: #3B7ED1;align-items: center;justify-content: center;
+        width: 2.4rem; &.action{color: #B2B2B2};@include borderLeft(1,rgba(0,0,0,0.05))
+      }
+    }
+  }
+
+}

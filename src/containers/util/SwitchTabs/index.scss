@@ -1,0 +1,6 @@
+// 下拉切换显示
+.xl-switch-tabs{transition:height .2s;overflow: hidden;
+  .xl-switch-tabs_content{
+    //max-height: r(200);
+    overflow-y: auto;}
+}

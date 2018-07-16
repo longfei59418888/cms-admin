@@ -1,0 +1,16 @@
+@import '../reset';
+
+.xl-modal_container_box{
+  width: 100vw;height: 100vh;background: #fff;position: fixed;top: 0;left: 0;z-index: 99999;display: block;
+  //先添加方向【show和方向】，然后添加action
+  //&.show{
+    &.left{transform: translate(-100%,0);}
+    &.right{transform: translate(100%,0);}
+    &.bottom{transform: translate(0,100%);}
+    &.no-animate{transition: transform 0s;}
+    &.animate{transition: transform .3s;}
+    &.action{transform: translate(0,0);}
+
+  //}
+
+}

@@ -1,0 +1,11 @@
+
+@keyframes am_queue_frame {
+  from {transform:translateY(0);}
+  to {transform:translateY(-50%);}
+}
+.am_queue_common_box{position: relative;overflow: hidden;
+  &.init{height: 0}
+  .am_queue_content{
+    &.action{ animation: am_queue_frame 5s linear infinite; }
+  }
+}
