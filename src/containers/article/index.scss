@@ -23,6 +23,15 @@
       background: rgba(255,255,255,.1);
       .article-list{
         width: 300px;
+        position: relative;
+        .list{
+          position: absolute;
+          left: 0;
+          width: 100%;
+          bottom: 0;
+          top: 40px;
+          overflow: scroll;
+        }
         .add,.item{
           display: flex;
           align-items: center;
@@ -54,7 +63,10 @@
         border-left: 1px solid rgba(0,0,0,.3);
         height: 100%;
         position: relative;
-        .title{height: 50px;
+        .title{
+          height: 50px;
+          display: flex;
+          .b{ flex: 1;}
           input{
             width: 100%;
             border: none;
@@ -63,9 +75,45 @@
             padding-left: 20px;
             background: rgba(255,255,255,.2);
           }
+          .option{
+            width: 200px;
+            overflow: hidden;
+            display: flex;
+            p{
+              line-height: 50px;
+              cursor: pointer;
+              flex: 1;
+              background: #293c55;
+              color: #fff;
+              font-size: 16px;
+              text-align: center;
+              &:last-child{
+                background: #2446AB;
+              }
+              &:first-child{
+                background: #2D2D2D;
+              }
+            }
+          }
         }
-        .box{position: absolute;top: 50px;bottom: 0;width: 100%;}
-        textarea{width: 100%;height: 100%;}
+        .box{
+          position: absolute;
+          top: 50px;
+          bottom: 0;
+          width: 100%;
+          >.editors{
+            display: flex;
+            height: 100%;
+            position: relative;
+            #myEditor{
+              width: 100%;
+            }
+          }
+        }
+        textarea{
+          width: 100%;
+          height: 100%;
+        }
       }
     }
   }

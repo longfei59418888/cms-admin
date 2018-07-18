@@ -2,8 +2,556 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d3750bd-b46c-4067-ac8e-037a1fd74b66" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lang/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lang/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lang/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lang/zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lang/zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/anchor/anchor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/autoheight/autoheight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/baidumap/baidumap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/baidumap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/baidumap/map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/clearhtml/clearhtml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/code/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/code/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/code/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/emoticons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/100.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/101.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/102.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/103.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/104.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/105.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/106.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/107.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/108.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/109.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/110.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/111.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/112.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/113.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/114.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/115.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/116.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/117.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/118.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/119.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/120.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/121.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/122.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/123.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/124.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/125.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/126.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/127.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/128.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/129.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/130.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/131.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/132.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/133.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/134.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/72.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/73.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/74.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/75.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/76.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/77.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/78.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/79.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/80.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/81.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/82.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/83.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/84.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/85.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/86.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/87.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/88.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/89.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/90.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/91.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/92.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/93.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/94.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/95.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/96.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/97.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/98.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/99.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/emoticons/images/static.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/filemanager/filemanager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/filemanager/images/file-16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/filemanager/images/file-64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/filemanager/images/folder-16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/filemanager/images/folder-64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/filemanager/images/go-up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/fixtoolbar/fixtoolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/flash/flash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/image/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/image/images/align_left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/image/images/align_right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/image/images/align_top.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/image/images/refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/insertfile/insertfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/lineheight/lineheight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/link/link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/map/map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/map/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/media/media.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/multiimage/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/multiimage/images/select-files-en.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/multiimage/images/select-files-zh-CN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/multiimage/images/swfupload.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/multiimage/multiimage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/pagebreak/pagebreak.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/plainpaste/plainpaste.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/preview/preview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/quickformat/quickformat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/table/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/template/html/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/template/html/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/template/html/3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/template/template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/plugins/wordpaste/wordpaste.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/KindEditor/themes/default/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/anchor/anchor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/attachment/attachment.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/attachment/attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/attachment/attachment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/attachment/fileTypeImages/icon_chm.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/attachment/fileTypeImages/icon_default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/attachment/fileTypeImages/icon_doc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/attachment/fileTypeImages/icon_exe.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/attachment/fileTypeImages/icon_jpg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/attachment/fileTypeImages/icon_mp3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/attachment/fileTypeImages/icon_mv.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/attachment/fileTypeImages/icon_pdf.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/attachment/fileTypeImages/icon_ppt.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/attachment/fileTypeImages/icon_psd.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/attachment/fileTypeImages/icon_rar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/attachment/fileTypeImages/icon_txt.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/attachment/fileTypeImages/icon_xls.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/attachment/images/alignicon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/attachment/images/alignicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/attachment/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/attachment/images/file-icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/attachment/images/file-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/attachment/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/attachment/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/attachment/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/attachment/images/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/attachment/images/success.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/attachment/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/background/background.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/background/background.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/background/background.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/background/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/background/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/charts/chart.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/charts/charts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/charts/charts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/charts/charts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/charts/images/charts0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/charts/images/charts1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/charts/images/charts2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/charts/images/charts3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/charts/images/charts4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/charts/images/charts5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/emotion/emotion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/emotion/emotion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/emotion/emotion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/emotion/images/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/emotion/images/bface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/emotion/images/cface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/emotion/images/fface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/emotion/images/jxface2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/emotion/images/neweditor-tab-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/emotion/images/tface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/emotion/images/wface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/emotion/images/yface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/gmap/gmap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/help/help.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/help/help.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/help/help.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/image/image.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/image/image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/image/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/image/images/alignicon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/image/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/image/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/image/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/image/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/image/images/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/image/images/success.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/image/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/insertframe/insertframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/internal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/link/link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/map/map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/map/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/music/music.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/music/music.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/music/music.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/preview/preview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/scrawl/images/addimg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/scrawl/images/brush.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/scrawl/images/delimg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/scrawl/images/delimgH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/scrawl/images/empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/scrawl/images/emptyH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/scrawl/images/eraser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/scrawl/images/redo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/scrawl/images/redoH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/scrawl/images/scale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/scrawl/images/scaleH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/scrawl/images/size.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/scrawl/images/undo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/scrawl/images/undoH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/scrawl/scrawl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/scrawl/scrawl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/scrawl/scrawl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/searchreplace/searchreplace.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/searchreplace/searchreplace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/snapscreen/snapscreen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/spechars/spechars.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/spechars/spechars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/table/dragicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/table/edittable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/table/edittable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/table/edittable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/table/edittd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/table/edittip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/template/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/template/images/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/template/images/pre0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/template/images/pre1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/template/images/pre2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/template/images/pre3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/template/images/pre4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/template/template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/template/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/template/template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/video/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/video/images/center_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/video/images/file-icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/video/images/file-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/video/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/video/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/video/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/video/images/left_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/video/images/none_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/video/images/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/video/images/right_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/video/images/success.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/video/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/video/video.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/video/video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/video/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/webapp/webapp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/wordimage/fClipboard_ueditor.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/wordimage/imageUploader.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/wordimage/tangram.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/wordimage/wordimage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/article/images/dialogs/wordimage/wordimage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/common/anchor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/common/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/common/flash.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/common/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/common/media.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/common/rm.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/default/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/default/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/default/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/qq/editor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/qq/qq.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/simple/simple.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/kindeditor-all-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/kindeditor-all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/php/JSON.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/JSON.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/php/demo.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/demo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/php/file_manager_json.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/file_manager_json.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/php/upload_json.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/upload_json.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/anchor/anchor.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/anchor/anchor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/autoheight/autoheight.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/autoheight/autoheight.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/baidumap/baidumap.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/baidumap/baidumap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/baidumap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/baidumap/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/baidumap/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/baidumap/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/clearhtml/clearhtml.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/clearhtml/clearhtml.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/code/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/code/code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/code/prettify.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/code/prettify.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/code/prettify.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/code/prettify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/emoticons.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/emoticons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/0.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/10.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/10.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/100.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/100.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/101.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/101.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/102.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/102.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/103.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/103.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/104.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/104.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/105.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/105.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/106.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/106.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/107.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/107.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/108.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/108.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/109.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/109.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/11.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/11.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/110.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/110.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/111.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/111.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/112.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/112.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/113.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/113.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/114.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/114.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/115.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/115.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/116.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/116.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/117.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/117.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/118.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/118.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/119.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/119.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/12.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/12.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/120.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/120.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/121.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/121.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/122.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/122.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/123.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/123.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/124.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/124.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/125.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/125.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/126.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/126.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/127.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/127.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/128.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/128.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/129.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/129.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/13.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/13.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/130.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/130.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/131.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/131.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/132.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/132.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/133.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/133.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/134.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/134.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/14.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/14.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/15.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/15.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/16.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/16.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/17.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/17.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/18.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/18.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/19.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/19.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/20.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/20.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/21.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/21.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/22.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/22.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/23.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/23.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/24.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/24.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/25.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/25.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/26.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/26.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/27.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/27.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/28.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/28.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/29.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/29.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/30.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/30.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/31.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/31.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/32.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/32.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/33.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/33.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/34.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/34.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/35.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/35.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/36.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/36.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/37.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/37.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/38.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/38.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/39.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/39.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/4.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/40.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/40.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/41.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/41.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/42.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/42.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/43.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/43.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/44.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/44.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/45.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/45.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/46.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/46.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/47.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/47.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/48.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/48.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/49.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/49.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/5.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/5.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/50.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/50.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/51.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/51.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/52.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/52.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/53.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/53.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/54.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/54.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/55.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/55.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/56.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/56.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/57.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/57.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/58.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/58.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/59.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/59.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/6.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/6.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/60.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/60.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/61.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/61.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/62.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/62.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/63.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/63.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/64.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/64.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/65.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/65.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/66.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/66.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/67.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/67.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/68.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/68.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/69.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/69.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/7.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/7.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/70.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/70.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/71.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/71.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/72.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/72.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/73.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/73.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/74.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/74.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/75.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/75.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/76.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/76.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/77.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/77.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/78.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/78.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/79.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/79.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/8.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/8.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/80.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/80.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/81.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/81.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/82.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/82.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/83.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/83.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/84.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/84.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/85.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/85.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/86.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/86.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/87.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/87.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/88.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/88.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/89.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/89.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/9.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/9.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/90.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/90.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/91.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/91.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/92.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/92.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/93.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/93.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/94.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/94.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/95.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/95.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/96.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/96.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/97.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/97.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/98.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/98.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/99.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/99.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/emoticons/images/static.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/emoticons/images/static.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/filemanager/filemanager.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/filemanager/filemanager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/filemanager/images/file-16.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/filemanager/images/file-16.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/filemanager/images/file-64.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/filemanager/images/file-64.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/filemanager/images/folder-16.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/filemanager/images/folder-16.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/filemanager/images/folder-64.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/filemanager/images/folder-64.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/filemanager/images/go-up.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/filemanager/images/go-up.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/fixtoolbar/fixtoolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/fixtoolbar/fixtoolbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/flash/flash.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/flash/flash.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/image/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/image/image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/image/images/align_left.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/image/images/align_left.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/image/images/align_right.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/image/images/align_right.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/image/images/align_top.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/image/images/align_top.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/image/images/refresh.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/image/images/refresh.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/insertfile/insertfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/insertfile/insertfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/lineheight/lineheight.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/lineheight/lineheight.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/link/link.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/link/link.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/map/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/map/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/map/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/map/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/media/media.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/media/media.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/multiimage/images/image.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/multiimage/images/image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/multiimage/images/select-files-en.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/multiimage/images/select-files-en.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/multiimage/images/select-files-zh-CN.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/multiimage/images/select-files-zh-CN.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/multiimage/images/swfupload.swf" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/multiimage/images/swfupload.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/multiimage/multiimage.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/multiimage/multiimage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/pagebreak/pagebreak.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/pagebreak/pagebreak.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/plainpaste/plainpaste.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/plainpaste/plainpaste.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/preview/preview.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/preview/preview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/quickformat/quickformat.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/quickformat/quickformat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/table/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/table/table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/template/html/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/template/html/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/template/html/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/template/html/2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/template/html/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/template/html/3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/template/template.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/template/template.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/wordpaste/wordpaste.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/wordpaste/wordpaste.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/common/anchor.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/KindEditor/themes/common/anchor.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/common/blank.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/KindEditor/themes/common/blank.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/common/flash.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/KindEditor/themes/common/flash.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/common/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/KindEditor/themes/common/loading.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/common/media.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/KindEditor/themes/common/media.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/common/rm.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/KindEditor/themes/common/rm.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/default/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/KindEditor/themes/default/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/default/default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/default/default.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/KindEditor/themes/default/default.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/qq/editor.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/KindEditor/themes/qq/editor.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/qq/qq.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/KindEditor/themes/qq/qq.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/simple/simple.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/KindEditor/themes/simple/simple.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/article/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/article/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/article/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/article/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/article/lib/kindeditor-all.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/article/lib/kindeditor-all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/login/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/login/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/login/login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/login/login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/util/common/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/util/common/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/article.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/article.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/fetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/fetch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,85 +568,11 @@
       <file leaf-file-name="article.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/models/article.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            <state>
+              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
-                <element signature="n#!!block;n#del#0;n#Models#0" />
-                <element signature="n#!!block;n#add#0;n#Models#0" />
+                <element signature="e#0#52#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="classify.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/classify.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="session.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/session.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fetch.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/fetch.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/home/index.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1330">
-              <caret line="70" column="59" lean-forward="true" selection-start-line="70" selection-start-column="59" selection-end-line="70" selection-end-column="59" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/util/common/index.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1311">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/admin.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="16" column="93" lean-forward="true" selection-start-line="16" selection-start-column="93" selection-end-line="16" selection-end-column="93" />
             </state>
           </provider>
         </entry>
@@ -106,8 +580,8 @@
       <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/article/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+            <state relative-caret-position="228">
+              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -118,11 +592,166 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/decorators/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+            <state relative-caret-position="315">
+              <caret line="71" column="33" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fetch.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/utils/fetch.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="82" column="51" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prettify.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/KindEditor/prettify.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kindeditor-all.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/article/lib/kindeditor-all.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16212">
+              <caret line="7359" selection-start-line="7359" selection-end-line="7359" />
               <folding>
-                <element signature="e#0#48#0" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                <element signature="e#6#12#1" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#63#69#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#textarea#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+                <element signature="e#96#102#1" expanded="true" />
+                <element signature="e#58#64#1" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+                <element signature="e#100#106#1" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+                <element signature="e#111#117#1" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+                <element signature="e#87#93#1" expanded="true" />
+                <element signature="e#58#64#1" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+                <element signature="e#96#102#1" expanded="true" />
+                <element signature="e#58#64#1" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#textarea#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+                <element signature="e#108#114#1" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+                <element signature="e#110#116#1" expanded="true" />
+                <element signature="e#10#16#0" expanded="true" />
+                <element signature="e#98#104#1" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+                <element signature="e#114#120#1" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+                <element signature="e#112#118#1" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+                <element signature="e#110#116#1" expanded="true" />
+                <element signature="e#10#16#0" expanded="true" />
+                <element signature="e#98#104#1" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+                <element signature="e#112#118#1" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -134,16 +763,12 @@
       <list>
         <option value="jsx" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>selector</find>
-      <find>inpu</find>
-      <find>$</find>
-      <find>HTML代码</find>
-      <find>create</find>
       <find>_instances</find>
       <find>editHeight</find>
       <find>autoPos</find>
@@ -153,6 +778,27 @@
       <find>5690D2</find>
       <find>.ke-statusbar</find>
       <find>alert</find>
+      <find>currentItem</find>
+      <find>&lt;pre</find>
+      <find>window</find>
+      <find>SyntaxHighlighter</find>
+      <find>del</find>
+      <find>cssPath</find>
+      <find>code</find>
+      <find>code'</find>
+      <find>dui-default</find>
+      <find>.edui-default .edui-editor</find>
+      <find>.edui-default .edui-editor-toolbarbox</find>
+      <find>this.editor</find>
+      <find>image.localUrl</find>
+      <find>上传文件</find>
+      <find>本地上传</find>
+      <find>uploadJson</find>
+      <find>iframeDoc</find>
+      <find>image</find>
+      <find>localImage</find>
+      <find>clickFn</find>
+      <find>tabIndex</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,13 +807,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/webpack/config.js" />
-        <option value="$PROJECT_DIR$/src/containers/login/register.jsx" />
-        <option value="$PROJECT_DIR$/src/containers/article/add/index.jsx" />
-        <option value="$PROJECT_DIR$/src/app.js" />
-        <option value="$PROJECT_DIR$/src/style/common.scss" />
-        <option value="$PROJECT_DIR$/src/style/util.scss" />
-        <option value="$PROJECT_DIR$/src/containers/util/form/checkBox/index.jsx" />
         <option value="$PROJECT_DIR$/src/containers/util/form/checkBox/index.scss" />
         <option value="$PROJECT_DIR$/src/containers/util/form/btn/index.scss" />
         <option value="$PROJECT_DIR$/src/containers/util/form/btn/index.jsx" />
@@ -176,12 +815,8 @@
         <option value="$PROJECT_DIR$/src/containers/util/popover/index.scss" />
         <option value="$PROJECT_DIR$/src/style/reset.scss" />
         <option value="$PROJECT_DIR$/src/containers/article/lib/php/demo.php" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/public/kindeditor-all.js" />
-        <option value="$PROJECT_DIR$/src/containers/article/lib/kindeditor-all.js" />
         <option value="$PROJECT_DIR$/src/containers/index.scss" />
-        <option value="$PROJECT_DIR$/src/containers/article/lib/themes/default/default.css" />
-        <option value="$PROJECT_DIR$/src/containers/article/index.scss" />
         <option value="$PROJECT_DIR$/src/containers/index.js" />
         <option value="$PROJECT_DIR$/src/containers/login/index.jsx" />
         <option value="$PROJECT_DIR$/src/containers/util/form/btn/index.module.scss" />
@@ -189,23 +824,40 @@
         <option value="$PROJECT_DIR$/src/modules/userinfo.js" />
         <option value="$PROJECT_DIR$/webpack/webpack.config.dev.js" />
         <option value="$PROJECT_DIR$/src/containers/util/toast/index.jsx" />
-        <option value="$PROJECT_DIR$/src/containers/login/login.jsx" />
-        <option value="$PROJECT_DIR$/src/containers/login/index.scss" />
         <option value="$PROJECT_DIR$/src/containers/util/toast/index.scss" />
         <option value="$PROJECT_DIR$/src/models/userinfo.js" />
         <option value="$PROJECT_DIR$/src/utils/cookie.js" />
-        <option value="$PROJECT_DIR$/src/containers/home/index.scss" />
         <option value="$PROJECT_DIR$/src/containers/util/popover/index.jsx" />
         <option value="$PROJECT_DIR$/src/decorators/index.js" />
         <option value="$PROJECT_DIR$/src/containers/util/common/index.scss" />
-        <option value="$PROJECT_DIR$/src/containers/util/common/index.jsx" />
         <option value="$PROJECT_DIR$/src/containers/admin.jsx" />
-        <option value="$PROJECT_DIR$/src/models/article.js" />
-        <option value="$PROJECT_DIR$/src/containers/article/index.jsx" />
         <option value="$PROJECT_DIR$/src/models/classify.js" />
         <option value="$PROJECT_DIR$/src/containers/home/index.jsx" />
-        <option value="$PROJECT_DIR$/src/utils/fetch.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/containers/login/login.jsx" />
+        <option value="$PROJECT_DIR$/src/containers/home/index.scss" />
+        <option value="$PROJECT_DIR$/src/containers/util/common/index.jsx" />
+        <option value="$PROJECT_DIR$/src/containers/login/index.scss" />
+        <option value="$PROJECT_DIR$/src/containers/article/heightlighter/shCore.css" />
+        <option value="$PROJECT_DIR$/src/containers/article/heightlighter/shThemeDefault.css" />
+        <option value="$PROJECT_DIR$/src/containers/article/heightlighter/shCore.js" />
+        <option value="$PROJECT_DIR$/src/containers/article/heightlighter/shAutoloader.js" />
+        <option value="$PROJECT_DIR$/public/heightlighter/shAutoloader.js" />
+        <option value="$PROJECT_DIR$/public/heightlighter/shCore.js" />
+        <option value="$PROJECT_DIR$/public/syntaxhighlighter/styles/shCoreDefault.css" />
+        <option value="$PROJECT_DIR$/public/syntaxhighlighter/test.css" />
+        <option value="$PROJECT_DIR$/src/containers/article/lib/themes/default/default.css" />
+        <option value="$PROJECT_DIR$/public/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" />
+        <option value="$PROJECT_DIR$/src/containers/article/ueditor.all.js" />
+        <option value="$PROJECT_DIR$/public/ueditor/themes/default/css/ueditor.css" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/containers/article/index.scss" />
+        <option value="$PROJECT_DIR$/public/KindEditor/prettify.css" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/utils/fetch.js" />
+        <option value="$PROJECT_DIR$/src/containers/article/index.jsx" />
+        <option value="$PROJECT_DIR$/src/models/article.js" />
+        <option value="$PROJECT_DIR$/src/containers/article/lib/kindeditor-all.js" />
       </list>
     </option>
   </component>
@@ -249,6 +901,53 @@
               <item name="cms-admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="cms-admin" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cms-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cms-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cms-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="KindEditor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cms-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cms-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cms-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cms-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cms-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -261,6 +960,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/wangxiaolong/Desktop/work/my-items/cms-admin/src/containers/util/form/checkBox/index.scss" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -270,15 +970,16 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/containers/util/common" />
-      <recent name="$PROJECT_DIR$/src/containers/home/images" />
-      <recent name="$PROJECT_DIR$/src/containers/util/toast/images" />
-      <recent name="$PROJECT_DIR$/src/containers/util/toast" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/containers/login/images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/containers/article/images" />
+      <recent name="$PROJECT_DIR$/public/ueditor" />
+      <recent name="$PROJECT_DIR$/src/containers/article" />
+      <recent name="$PROJECT_DIR$/public/KindEditor" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -322,28 +1023,31 @@
       <workItem from="1531189009861" duration="19005000" />
       <workItem from="1531276851538" duration="17712000" />
       <workItem from="1531360918577" duration="1284000" />
-      <workItem from="1531363874295" duration="49089000" />
+      <workItem from="1531363874295" duration="64971000" />
+      <workItem from="1531792013574" duration="8924000" />
+      <workItem from="1531810342853" duration="3317000" />
+      <workItem from="1531814210744" duration="1360000" />
+      <workItem from="1531815784354" duration="22248000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87090000" />
+    <option name="totallyTimeSpent" value="138821000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info anchor="bottom" id="TypeScript" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6261438" visible="true" weight="0.24894515" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info id="npm" order="2" sideWeight="0.36842105" side_tool="true" weight="0.24954791" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32941177" />
-      <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6315789" visible="true" weight="0.24954791" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="npm" order="2" sideWeight="0.37385622" side_tool="true" visible="true" weight="0.24894515" />
       <window_info id="Structure" order="1" sideWeight="0.36842105" side_tool="true" weight="0.24954791" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.1" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -352,6 +1056,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,452 +1071,25 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/containers/article/lib/kindeditor-all.js</url>
-          <line>9</line>
+          <line>7202</line>
           <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/containers/article/lib/kindeditor-all.js</url>
-          <line>6091</line>
+          <line>4281</line>
           <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/public/kindeditor-all.js</url>
-          <line>5004</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/containers/article/lib/kindeditor-all.js</url>
-          <line>5259</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/utf8-php/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2028">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/kindeditor-all-min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/babel-plugin-transform-runtime/lib/definitions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/webpack.config.base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-246" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/article/lib/php/demo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="46" selection-start-line="46" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/kindeditor-all.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5516" selection-start-line="5516" selection-end-line="5516" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="e#6#12#1" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#63#69#0" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-            <element signature="e#96#102#1" expanded="true" />
-            <element signature="e#58#64#1" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-            <element signature="e#100#106#1" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-            <element signature="e#111#117#1" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-            <element signature="e#87#93#1" expanded="true" />
-            <element signature="e#58#64#1" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-            <element signature="e#96#102#1" expanded="true" />
-            <element signature="e#58#64#1" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="e#108#114#1" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="e#110#116#1" expanded="true" />
-            <element signature="e#10#16#0" expanded="true" />
-            <element signature="e#98#104#1" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="e#114#120#1" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="e#112#118#1" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="e#110#116#1" expanded="true" />
-            <element signature="e#10#16#0" expanded="true" />
-            <element signature="e#98#104#1" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="e#112#118#1" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/article/lib/kindeditor-all.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49383">
-          <caret line="5525" column="5" lean-forward="true" selection-start-line="5525" selection-start-column="5" selection-end-line="5525" selection-end-column="5" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="e#6#12#1" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#136445#137002#0" />
-            <element signature="e#137050#137697#0" />
-            <element signature="e#137125#137362#0" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#63#69#0" expanded="true" />
-            <element signature="e#168099#169152#0" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-            <element signature="e#96#102#1" expanded="true" />
-            <element signature="e#58#64#1" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-            <element signature="e#100#106#1" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-            <element signature="e#111#117#1" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-            <element signature="e#87#93#1" expanded="true" />
-            <element signature="e#58#64#1" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
-            <element signature="e#96#102#1" expanded="true" />
-            <element signature="e#58#64#1" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="e#108#114#1" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="e#110#116#1" expanded="true" />
-            <element signature="e#10#16#0" expanded="true" />
-            <element signature="e#98#104#1" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="e#114#120#1" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="e#112#118#1" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="e#110#116#1" expanded="true" />
-            <element signature="e#10#16#0" expanded="true" />
-            <element signature="e#98#104#1" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="e#112#118#1" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/article/lib/themes/default/default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="505" column="18" selection-start-line="505" selection-start-column="18" selection-end-line="505" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/storage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-712" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/webpack.config.prod.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/util/form/btn/index.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/extend.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6908" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/test.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <folding>
-            <element signature="e#0#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/test/index2.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/test/modal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" lean-forward="true" selection-end-line="115" />
-          <folding>
-            <element signature="e#0#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/webpack.config.dev.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="89" column="71" lean-forward="true" selection-start-line="89" selection-start-column="71" selection-end-line="89" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/login/login.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/test/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-469" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/util/toast/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/login/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/cookie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-router/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="45" column="16" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/login/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -825,32 +1104,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="82" selection-start-line="14" selection-start-column="82" selection-end-line="14" selection-end-column="82" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/decorator/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="14" selection-start-line="14" selection-end-line="18" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -873,20 +1130,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/home/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/util/form/btn/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -894,16 +1141,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="52" column="17" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/article/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -921,38 +1158,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-807" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/util/form/checkBox/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="e#73#105#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/util/common/index.jsx">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/decorators/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -963,32 +1179,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/article.js">
+    <entry file="file://$PROJECT_DIR$/src/containers/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="n#!!block;n#del#0;n#Models#0" />
-            <element signature="n#!!block;n#add#0;n#Models#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/home/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1330">
-          <caret line="70" column="59" lean-forward="true" selection-start-line="70" selection-start-column="59" selection-end-line="70" selection-end-column="59" />
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/article/index.jsx">
+    <entry file="file://$PROJECT_DIR$/src/containers/login/login.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        <state relative-caret-position="210">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -997,25 +1201,287 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/models/classify.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        <state relative-caret-position="133">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/login/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="17" column="93" lean-forward="true" selection-start-line="17" selection-start-column="93" selection-end-line="17" selection-end-column="93" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/home/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="2560" column="8" selection-start-line="2560" selection-start-column="8" selection-end-line="2560" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/home/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/login/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/util/common/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/heightlighter/shCore.css" />
+    <entry file="file://$PROJECT_DIR$/public/heightlighter/shThemeDefault.css" />
+    <entry file="file://$PROJECT_DIR$/public/heightlighter/shAutoloader.js" />
+    <entry file="file://$PROJECT_DIR$/public/heightlighter/shCore.js" />
+    <entry file="file://$PROJECT_DIR$/public/syntaxhighlighter/styles/shCoreEmacs.css" />
+    <entry file="file://$PROJECT_DIR$/src/containers/article/lib/plugins/code/code.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang/ar.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/syntaxhighlighter/styles/shCoreDefault.css" />
+    <entry file="file://$PROJECT_DIR$/public/syntaxhighlighter/test.css" />
+    <entry file="file://$PROJECT_DIR$/public/KindEditor/themes/qq/qq.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/KindEditor/default.css" />
+    <entry file="file://$PROJECT_DIR$/public/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" />
+    <entry file="file://$PROJECT_DIR$/public/ueditor/third-party/SyntaxHighlighter/shCore.js" />
+    <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.config.js" />
+    <entry file="file://$PROJECT_DIR$/public/ueditor/_src/ui/ui.js" />
+    <entry file="file://$PROJECT_DIR$/public/ueditor/lang/en/en.js" />
+    <entry file="file://$PROJECT_DIR$/src/containers/article/images/dialogs/map/map.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/article/lib/themes/default/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="1148" selection-start-line="1148" selection-end-line="1148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ueditor/themes/default/css/ueditor.css" />
+    <entry file="file://$PROJECT_DIR$/src/containers/article/ueditor.all.js" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/article/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="105" column="25" lean-forward="true" selection-start-line="105" selection-start-column="25" selection-end-line="105" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/KindEditor/prettify.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/article/lib/kindeditor-all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16212">
+          <caret line="7359" selection-start-line="7359" selection-end-line="7359" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="e#6#12#1" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#63#69#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+            <element signature="e#96#102#1" expanded="true" />
+            <element signature="e#58#64#1" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+            <element signature="e#100#106#1" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+            <element signature="e#111#117#1" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+            <element signature="e#87#93#1" expanded="true" />
+            <element signature="e#58#64#1" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+            <element signature="e#96#102#1" expanded="true" />
+            <element signature="e#58#64#1" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+            <element signature="e#108#114#1" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+            <element signature="e#110#116#1" expanded="true" />
+            <element signature="e#10#16#0" expanded="true" />
+            <element signature="e#98#104#1" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+            <element signature="e#114#120#1" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+            <element signature="e#112#118#1" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+            <element signature="e#110#116#1" expanded="true" />
+            <element signature="e#10#16#0" expanded="true" />
+            <element signature="e#98#104#1" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+            <element signature="e#112#118#1" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/article.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/article/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/decorators/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="71" column="33" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/fetch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="395">
+          <caret line="82" column="51" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="51" />
         </state>
       </provider>
     </entry>

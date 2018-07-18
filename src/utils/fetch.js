@@ -30,8 +30,23 @@ export const del = async (url, options) => {
     return await fetchData(url, options);
 }
 
+export const uplaod = async (url, body) => {
+    return await fetch(DEVELOPMETN_URL + url, {
+        method: 'POST',
+        credentials: 'include',
+        body: body,
+    }).then((rst) => {
+        return rst.json()
+
+    }).then(resData => {
+        return dealRst(resData, {})
+    }).catch(function (err) {
+        console.log('catch fetch:' + err)
+    })
+}
 
 async function fetchData(url, options) {
+
     if (options.method != 'get') options.body = JSON.stringify(options.data ? options.data : {})
     else {
         url += options.body
@@ -48,7 +63,6 @@ async function fetchData(url, options) {
             'Accept': 'application/json',
             'Content-Type': 'application/json',
         },
-        // noCredentials: true,
         mode: 'cors',
     }, options)
     return await fetch(url, opts).then((rst) => {

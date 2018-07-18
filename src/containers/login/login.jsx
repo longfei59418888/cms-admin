@@ -27,14 +27,14 @@ export default class Main extends React.Component {
         return (
             <div className='login'>
                 <div className="input-login">
-                    <p className="username">
+                    <div className="username">
                         <span><i></i></span>
-                        <input ref={'username'} type="text" placeholder='输入账号'/>
-                    </p>
-                    <p className="password">
+                        <div><input ref={'username'} type="text" placeholder='输入账号'/></div>
+                    </div>
+                    <div className="password">
                         <span><i></i></span>
-                        <input ref={'password'} type="password" placeholder='密码'/>
-                    </p>
+                        <div><input ref={'password'} type="password" placeholder='密码'/></div>
+                    </div>
                 </div>
                 <div className="option">
                     <div className="cache">

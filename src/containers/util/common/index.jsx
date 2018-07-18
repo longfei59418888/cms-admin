@@ -24,6 +24,14 @@ export function close() {
     pop()
 }
 
+/*
+* title
+* message
+* success
+* cancel
+* successText
+* cancelText
+* */
 export function comfirm(options) {
     addContainer(options.className);
     ReactDOM.unmountComponentAtNode(modalContainer)

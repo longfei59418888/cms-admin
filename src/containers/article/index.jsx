@@ -1,45 +1,109 @@
 import React from 'react';
+import classNames from 'classnames'
+import { observer } from 'mobx-react'
 import './index.scss';
 import './lib/themes/default/default.css'
-import { loading,login } from 'src/decorators'
+import { loading,login,autobind } from 'src/decorators'
 import CLASSIFY from 'src/models/classify'
 import ARTICLE from 'src/models/article'
+import { success } from '../util/toast'
+import { comfirm } from '../util/common'
+import { uplaod } from 'src/utils/fetch'
 
 @login()
 @loading(async (props,state)=>{
-    let id = props.match.params.id
-    if(CLASSIFY.current == null){
-        return await Promise.all([
-            import('./lib/kindeditor-all'),
-            CLASSIFY.getCurrent({id})
-        ])
+    if(ARTICLE.classifyId != props.match.params.id){
+        ARTICLE.init(props.match.params.id)
     }
-    return await Promise.all([import('./lib/kindeditor-all')])
+    let promises = [import('./lib/kindeditor-all')]
+    if(CLASSIFY.current == null) promises.push(CLASSIFY.getCurrent({id:props.match.params.id}))
+    if(ARTICLE.list == null) promises.push(ARTICLE.get())
+    let rst = await Promise.all(promises)
+    if(ARTICLE.currentItem == null){
+        if(ARTICLE.list.length>0){
+            await ARTICLE.get(ARTICLE.list[0].id)
+        }else {
+            ARTICLE.currentItem = {
+                title:'',
+                content:''
+            }
+        }
+    }
+    return rst
 })
+@observer
 export default class Main extends React.Component {
 
     componentDidMount(){
         let KindEditor = this.props.load[0]
-        let classify = this.props.load[1]
-        console.log(classify)
         let content = this.refs.content
-            this.editor = KindEditor.create(content, {
-                // cssPath : '../plugins/code/prettify.css',
-                uploadJson : '../php/upload_json.php',
-                fileManagerJson : '../php/file_manager_json.php',
-                allowFileManager : true,
-                afterCreate : function() {
-                    var self = this;
-                    KindEditor.ctrl(document, 13, function() {
-                        self.sync();
-                        KindEditor('form[name=example]')[0].submit();
-                    });
-                    KindEditor.ctrl(self.edit.doc, 13, function() {
-                        self.sync();
-                        KindEditor('form[name=example]')[0].submit();
-                    });
-                }
-            });
+        // console.log(SyntaxHighlighter)
+        // document.domain = "jiaju.com";
+        this.editor = KindEditor.create(content, {
+            cssPath : '/KindEditor/prettify.css',
+            uploadJson : 'http://127.0.0.1:8081/admin/api/upload',
+            uploadImage:(input,bak)=>{
+                var data = new FormData()
+                data.append('file', input.files[0])
+                uplaod('admin/api/upload',data).then(rst=>{
+                    console.log(rst)
+                    bak(rst.imgUrl)
+                })
+                // fetch(DEVELOPMETN_URL + 'admin/api/upload', {
+                //     method: 'POST',
+                //     body: data
+                // })
+            },
+            fileManagerJson : '../php/file_manager_json.php',
+            allowFileManager : true,
+            afterCreate : function() {
+                var self = this;
+                KindEditor.ctrl(document, 13, function() {
+                    self.sync();
+                    KindEditor('form[name=example]')[0].submit();
+                });
+                KindEditor.ctrl(self.edit.doc, 13, function() {
+                    self.sync();
+                    KindEditor('form[name=example]')[0].submit();
+                });
+            }
+        });
+        this.editor.html(ARTICLE.currentItem.content)
+        this.refs.title.value = ARTICLE.currentItem.title
+    }
+    @autobind
+    async add(isPublish){
+        if(ARTICLE.currentItem.id){
+            let rst = await ARTICLE.update({
+                content : this.editor.html(),
+                title:this.refs.title.value,
+                isPublish:isPublish
+            })
+            if(rst) success('更新成功！')
+            return
+        }
+        let rst = await ARTICLE.add({
+            content : this.editor.html(),
+            title:this.refs.title.value,
+            isPublish:isPublish
+        })
+        if(rst) success('发布成功！')
+    }
+    @autobind
+    async select(id,index){
+        await ARTICLE.get(id,index);
+        this.editor.html(ARTICLE.currentItem.content)
+        this.refs.title.value = ARTICLE.currentItem.title
+    }
+    @autobind
+    async del(){
+        let rst = await ARTICLE.del(ARTICLE.currentItem.id)
+        if(rst){
+            ARTICLE.currentItem = {}
+            this.editor.html('')
+            this.refs.title.value=''
+            success('删除成功！')
+        }
     }
     render() {
         return (
@@ -52,25 +116,55 @@ export default class Main extends React.Component {
                 <div className="content">
                     <div className="container">
                         <div className='article-list'>
-                            <div className="add">
+                            <div className="add" onClick={()=>{
+                                ARTICLE.currentItem = {}
+                                this.editor.html('')
+                                this.refs.title.value=''
+                            }}>
                                 <img src={require('./images/add.png')} alt=""/>
                                 <span>添加文章</span>
                             </div>
                             <div className="list">
-                                <div className="item active">
-                                    <img src={require('./images/page.png')} alt=""/>
-                                    <span>添加文章</span>
-                                </div>
+                                {ARTICLE.list.map((item,index)=>{
+                                    return (
+                                        <div className={classNames('item',{active:ARTICLE.currentItem.id == item.id})}
+                                             onClick={()=>{
+                                                 if(ARTICLE.currentItem.id == item.id) return;
+                                                 this.select(item.id,index)
+                                             }}>
+                                            <img src={require('./images/page.png')} alt=""/>
+                                            <span>{item.title}</span>
+                                        </div>
+                                    )
+                                })}
                             </div>
                         </div>
                         <div className='content-box'>
                             <div className="title">
-                                <input placeholder='标题' type="text"/>
+                                <div className='b'>
+                                    <input  ref='title' placeholder='标题' type="text"/>
+                                </div>
+                                <div className='option'>
+                                    {ARTICLE.currentItem.id?
+                                        <p onClick={()=>{
+                                            comfirm({
+                                                message:`您是否要删除文章 ${ARTICLE.currentItem.title} ?`,
+                                                success:()=>{
+                                                    this.del()
+                                                }
+                                            })
+                                        }}>删除</p>:''}
+                                    {!ARTICLE.currentItem.isPublish?
+                                        <p onClick={()=>{
+                                            this.add(false)
+                                        }}>保存</p>:''}
+                                    <p onClick={()=>{
+                                        this.add(true)
+                                    }}>发布</p>
+                                </div>
                             </div>
                             <div className='box'>
-                                <textarea ref='content' style={{visibility:'hidden'}}>
-
-                            </textarea>
+                                <textarea  ref='content' style={{visibility:'hidden'}}></textarea>
                             </div>
                         </div>
                     </div>

@@ -46,7 +46,7 @@
       border-radius: 4px;
       overflow: hidden;
       background-color: hsla(0,0%,71%,.1);
-      p{
+      >div{
         display: flex;
         height: 50px;
         span{width: 35px;display: flex;justify-content: center;align-items: center;
@@ -56,7 +56,12 @@
             height: 16px;
           }
         }
-        input{flex: 1;
+        >div{
+          flex: 1;
+        }
+        input{
+          width: 100%;
+          line-height: 50px;
           background: none;
           border: none;
           -webkit-tap-highlight-color: transparent;
