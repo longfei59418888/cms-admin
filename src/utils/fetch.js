@@ -81,11 +81,12 @@ async function fetchData(url, options) {
 function dealRst(resData, opts) {
     let {status, msg, data = {}} = resData;
     console.log(`----${opts.url}---`, resData, opts)
+    if (status == 0 && !location.href.match('/login')) {
+        location.href = '/login'
+        return null
+    }
     if (status != 1) {
         error({msg})
-        if (status == 0) {
-            history.href = '/login'
-        }
         return null
     }
     return data

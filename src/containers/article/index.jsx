@@ -25,7 +25,7 @@ import { uplaod } from 'src/utils/fetch'
         }else {
             ARTICLE.currentItem = {
                 title:'',
-                content:''
+                content:'<p></p>'
             }
         }
     }
@@ -73,19 +73,30 @@ export default class Main extends React.Component {
     }
     @autobind
     async add(isPublish){
+        let content = this.editor.html(),title = this.refs.title.value;
+        let contentPlist = content.match(/<p>((.|\n)+?)<\/p>/ig)
+        let description = [];
+        contentPlist.forEach(item=>{
+            if(description.length < 3 && item.replace(/[\s\n]/g,'') != '<p><br/></p>'){
+                description.push(item)
+            }
+        })
+        description = description.join('')
         if(ARTICLE.currentItem.id){
             let rst = await ARTICLE.update({
-                content : this.editor.html(),
-                title:this.refs.title.value,
-                isPublish:isPublish
+                content,
+                description,
+                title,
+                isPublish
             })
             if(rst) success('更新成功！')
             return
         }
         let rst = await ARTICLE.add({
-            content : this.editor.html(),
-            title:this.refs.title.value,
-            isPublish:isPublish
+            content,
+            description,
+            title,
+            isPublish
         })
         if(rst) success('发布成功！')
     }
@@ -118,7 +129,7 @@ export default class Main extends React.Component {
                         <div className='article-list'>
                             <div className="add" onClick={()=>{
                                 ARTICLE.currentItem = {}
-                                this.editor.html('')
+                                this.editor.html('<p></p>')
                                 this.refs.title.value=''
                             }}>
                                 <img src={require('./images/add.png')} alt=""/>

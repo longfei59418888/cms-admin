@@ -208,8 +208,8 @@
         extend : _extend,
         json : _json
     };
-    var _INLINE_TAG_MAP = _toMap('a,abbr,acronym,b,basefont,bdo,big,br,button,cite,code,del,dfn,em,font,i,img,input,ins,kbd,label,map,q,s,samp,select,small,span,strike,strong,sub,sup,textarea,tt,u,var'),
-        _BLOCK_TAG_MAP = _toMap('address,applet,blockquote,body,center,dd,dir,div,dl,dt,fieldset,form,frameset,h1,h2,h3,h4,h5,h6,head,hr,html,iframe,ins,isindex,li,map,menu,meta,noframes,noscript,object,ol,p,pre,script,style,table,tbody,td,tfoot,th,thead,title,tr,ul'),
+    var _INLINE_TAG_MAP = _toMap('a,abbr,acronym,b,basefont,bdo,big,br,button,cite,del,dfn,em,font,i,img,input,ins,kbd,label,map,q,s,samp,select,small,span,strike,strong,sub,sup,textarea,tt,u,var'),
+        _BLOCK_TAG_MAP = _toMap('address,applet,blockquote,body,center,dd,dir,div,code,dl,dt,fieldset,form,frameset,h1,h2,h3,h4,h5,h6,head,hr,html,iframe,ins,isindex,li,map,menu,meta,noframes,noscript,object,ol,p,pre,script,style,table,tbody,td,tfoot,th,thead,title,tr,ul'),
         _SINGLE_TAG_MAP = _toMap('area,base,basefont,br,col,frame,hr,img,input,isindex,link,meta,param,embed'),
         _STYLE_TAG_MAP = _toMap('b,basefont,big,del,em,font,i,s,small,span,strike,strong,sub,sup,u'),
         _CONTROL_TAG_MAP = _toMap('img,table,input,textarea,button'),
@@ -305,6 +305,7 @@
                 '.font-weight', '.font-style', '.text-decoration', '.vertical-align', '.text-indent', '.margin-left'
             ],
             pre : ['id', 'class'],
+            code : ['id', 'class'],
             hr : ['id', 'class', '.page-break-after'],
             'br,tbody,tr,strong,b,sub,sup,em,i,u,strike,s,del' : ['id', 'class'],
             iframe : ['id', 'class', 'src', 'frameborder', 'width', 'height', '.width', '.height']
@@ -4736,7 +4737,7 @@
             if (tagName == 'marquee' || tagName == 'select') {
                 return;
             }
-            if (newlineTag === 'br' && !brSkipTagMap[tagName]) {
+            if ((newlineTag === 'br' || tagName == 'code')&& !brSkipTagMap[tagName]) {
                 e.preventDefault();
                 self.insertHtml('<br />' + (_IE && _V < 9 ? '' : '\u200B'));
                 return;
@@ -4749,7 +4750,8 @@
             if (e.which != 13 || e.shiftKey || e.ctrlKey || e.altKey) {
                 return;
             }
-            if (newlineTag == 'br') {
+            var tagName = getAncestorTagName(self.cmd.range);
+            if (newlineTag == 'br' || tagName == 'code') {
                 return;
             }
             if (_GECKO) {
@@ -6677,19 +6679,14 @@ KindEditor.plugin('code', function(K) {
             html = ['<div style="padding:10px 20px;">',
                 '<div class="ke-dialog-row">',
                 '<select class="ke-code-type">',
-                '<option value="js">JavaScript</option>',
+                '<option value="javascript">JavaScript</option>',
                 '<option value="html">HTML</option>',
                 '<option value="css">CSS</option>',
                 '<option value="php">PHP</option>',
-                '<option value="pl">Perl</option>',
-                '<option value="py">Python</option>',
-                '<option value="rb">Ruby</option>',
+                '<option value="perl">Perl</option>',
+                '<option value="python">Python</option>',
+                '<option value="ruby">Ruby</option>',
                 '<option value="java">Java</option>',
-                '<option value="vb">ASP/VB</option>',
-                '<option value="cpp">C/C++</option>',
-                '<option value="cs">C#</option>',
-                '<option value="xml">XML</option>',
-                '<option value="bsh">Shell</option>',
                 '<option value="">Other</option>',
                 '</select>',
                 '</div>',
@@ -6706,7 +6703,7 @@ KindEditor.plugin('code', function(K) {
                         var type = K('.ke-code-type', dialog.div).val(),
                             code = textarea.val(),
                             cls = type === '' ? '' :  '' + type,
-                            html = '<pre class="brush: ' + cls + '">\n' + K.escape(code) + '</pre> ';
+                            html = '<pre>\n<code class="' + cls + '">' + K.escape(code) + '</code></pre> ';
                         if (K.trim(code) === '') {
                             alert(lang.pleaseInput);
                             textarea[0].focus();
