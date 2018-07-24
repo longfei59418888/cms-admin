@@ -117,7 +117,7 @@ pre {
     display: block;
     font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
     margin: 1em 0px;
-    white-space: pre;
+    white-space:pre-line;
     border-radius: 2px;
     background: rgba(255,255,255,.4 );
 }
