@@ -1,11 +1,14 @@
 import {observable, action, runInAction} from 'mobx'
 import {get, post, del, put} from '../utils/fetch'
+import moment from 'moment'
+import { getUTFDate } from 'src/utils/extend'
 
 class Models {
 
     @observable list = null;
     @observable currentItem = null;
     @observable classifyId = '';
+    @observable publicTime = moment()
 
     @action
     init(id){
@@ -23,6 +26,9 @@ class Models {
             if (rst) {
                 rst.index = index?index:0
                 this.currentItem = rst
+                if(rst.publicDate){
+                    this.publicTime = moment(getUTFDate(rst.publicDate))
+                }
                 return 1;
             }
             return 0;

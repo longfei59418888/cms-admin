@@ -9,6 +9,11 @@ import ARTICLE from 'src/models/article'
 import { success } from '../util/toast'
 import { comfirm } from '../util/common'
 import { uplaod } from 'src/utils/fetch'
+import DatePicker from 'react-datepicker';
+import moment from 'moment';
+
+import 'react-datepicker/dist/react-datepicker.css';
+import {getUTFDate} from "../../utils/extend";
 
 @login()
 @loading(async (props,state)=>{
@@ -82,12 +87,14 @@ export default class Main extends React.Component {
             }
         })
         description = description.join('')
+        let publicDate = ARTICLE.publicTime.format('YYYY-MM-DD h:mm:ss')
         if(ARTICLE.currentItem.id){
             let rst = await ARTICLE.update({
                 content,
                 description,
                 title,
-                isPublish
+                isPublish,
+                publicDate
             })
             if(rst) success('更新成功！')
             return
@@ -96,7 +103,8 @@ export default class Main extends React.Component {
             content,
             description,
             title,
-            isPublish
+            isPublish,
+            publicDate
         })
         if(rst) success('发布成功！')
     }
@@ -129,6 +137,7 @@ export default class Main extends React.Component {
                         <div className='article-list'>
                             <div className="add" onClick={()=>{
                                 ARTICLE.currentItem = {}
+                                // ARTICLE.publicTime = moment()
                                 this.editor.html('<p></p>')
                                 this.refs.title.value=''
                             }}>
@@ -172,6 +181,14 @@ export default class Main extends React.Component {
                                     <p onClick={()=>{
                                         this.add(true)
                                     }}>发布</p>
+                                    <div className='date'>
+                                        <DatePicker
+                                            selected={ARTICLE.publicTime}
+                                            onChange={(date)=>{
+                                                ARTICLE.publicTime = date
+                                            }}
+                                        />
+                                    </div>
                                 </div>
                             </div>
                             <div className='box'>

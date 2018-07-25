@@ -28,6 +28,9 @@ export function distanceFormat(distance) {
     return distance>999?(distance/1000).toFixed(2)+'km':distance+'m'
 }
 
+export function getUTFDate(time){
+    return time.replace('T',' ').split('.')[0]
+}
 
 /*
 * 时间格式化
