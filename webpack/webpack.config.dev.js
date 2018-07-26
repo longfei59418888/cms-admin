@@ -66,7 +66,7 @@ var devConfig = {
         host: localIp,
         hot: true,
         quiet: false,
-        contentBase:path.join(__dirname, "../public"),  // 静态资源目录
+        contentBase:path.join(__dirname, "../"),  // 静态资源目录
         historyApiFallback: {
             index: '/index.html'
         },

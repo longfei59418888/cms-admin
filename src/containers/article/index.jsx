@@ -45,7 +45,7 @@ export default class Main extends React.Component {
         // console.log(SyntaxHighlighter)
         // document.domain = "jiaju.com";
         this.editor = KindEditor.create(content, {
-            cssPath : '/KindEditor/prettify.css',
+            cssPath : '/public/KindEditor/prettify.css',
             uploadJson : 'http://127.0.0.1:8081/admin/api/upload',
             uploadImage:(input,bak)=>{
                 var data = new FormData()
