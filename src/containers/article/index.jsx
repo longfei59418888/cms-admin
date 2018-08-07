@@ -75,11 +75,19 @@ export default class Main extends React.Component {
         });
         this.editor.html(ARTICLE.currentItem.content)
         this.refs.title.value = ARTICLE.currentItem.title
+        this.saveTime = setInterval(()=>{
+            if(ARTICLE.currentItem.isPublish){
+                this.add(ARTICLE.currentItem.isPublish,1)
+            }
+        },10000)
+    }
+    componentWillUnmount(){
+        clearInterval(this.saveTime)
     }
     @autobind
-    async add(isPublish){
+    async add(isPublish,deal){
         let content = this.editor.html(),title = this.refs.title.value;
-        let contentPlist = content.match(/<p>((.|\n)+?)<\/p>/ig)
+        let contentPlist = content.match(/<p>((.|\n|(^pre|img))+?)<\/p>/ig)
         let description = [];
         contentPlist.forEach(item=>{
             if(description.length < 3 && item.replace(/[\s\n]/g,'') != '<p><br/></p>'){
@@ -96,7 +104,7 @@ export default class Main extends React.Component {
                 isPublish,
                 publicDate
             })
-            if(rst) success('更新成功！')
+            if(rst && !deal) success('更新成功！')
             return
         }
         let rst = await ARTICLE.add({
@@ -106,7 +114,7 @@ export default class Main extends React.Component {
             isPublish,
             publicDate
         })
-        if(rst) success('发布成功！')
+        if(rst && !deal) success('发布成功！')
     }
     @autobind
     async select(id,index){

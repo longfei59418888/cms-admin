@@ -87,7 +87,7 @@ var devConfig = {
         new webpack.HotModuleReplacementPlugin(),
         new webpack.DefinePlugin({
             'process.env.NODE_ENV': JSON.stringify('dev'),
-            'DEVELOPMETN_URL': JSON.stringify('http://127.0.0.1:8081/')
+            'DEVELOPMETN_URL': JSON.stringify('https://api.gilea.cn/')
         }),
         new webpack
             .optimize

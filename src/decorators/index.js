@@ -2,7 +2,7 @@ import {connect as connects} from "react-redux";
 import React from 'react';
 import { Redirect } from 'react-router'
 import USER from 'src/models/userinfo'
-import {getCookie} from 'src/utils/cookie'
+import {get} from 'src/utils/session'
 import {bindActionCreators} from "redux";
 
 /*
@@ -69,7 +69,7 @@ export function login() {
     return function (target) {
         let render = target.prototype.render;
         target.prototype.render = function () {
-            let token = getCookie('token')
+            let token = get('token')
             if (!token) {
                 return (<Redirect to='/login'/>)
             }
