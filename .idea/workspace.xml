@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5d3750bd-b46c-4067-ac8e-037a1fd74b66" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/article/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/article/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/decorators/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/decorators/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/reset.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/webpack.config.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/webpack.config.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/article/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/article/index.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,7 +20,7 @@
       <file leaf-file-name="article.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/models/article.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-18">
+            <state>
               <caret line="56" column="70" selection-start-line="56" selection-start-column="70" selection-end-line="56" selection-end-column="70" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
@@ -35,7 +32,7 @@
       <file leaf-file-name="fetch.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils/fetch.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
+            <state relative-caret-position="1273">
               <caret line="70" column="24" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
             </state>
           </provider>
@@ -44,20 +41,34 @@
       <file leaf-file-name="webpack.config.dev.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpack/webpack.config.dev.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
+            <state relative-caret-position="1691">
               <caret line="89" column="47" selection-start-line="89" selection-start-column="47" selection-end-line="89" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/article/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="80" column="13" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
+            <state relative-caret-position="115">
+              <caret line="154" column="46" selection-start-line="154" selection-start-column="46" selection-end-line="154" selection-end-column="46" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#1581#2722#0" />
+                <element signature="e#2877#3007#0" />
+                <element signature="e#3135#4129#0" />
+                <element signature="e#4170#4326#0" />
+                <element signature="e#4356#4586#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/containers/article/index.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -65,7 +76,7 @@
       <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/home/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
+            <state relative-caret-position="19">
               <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -77,7 +88,7 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/decorators/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
+            <state relative-caret-position="1254">
               <caret line="71" column="36" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
@@ -89,7 +100,7 @@
       <file leaf-file-name="reset.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/style/reset.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
+            <state relative-caret-position="266">
               <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
             </state>
           </provider>
@@ -109,15 +120,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/admin.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="14" column="98" selection-start-line="14" selection-start-column="98" selection-end-line="14" selection-end-column="98" />
             </state>
           </provider>
         </entry>
@@ -212,7 +214,6 @@
         <option value="$PROJECT_DIR$/src/containers/article/lib/kindeditor-all.js" />
         <option value="$PROJECT_DIR$/src/containers/article/lib/themes/default/default.css" />
         <option value="$PROJECT_DIR$/public/KindEditor/prettify.css" />
-        <option value="$PROJECT_DIR$/src/containers/article/index.scss" />
         <option value="$PROJECT_DIR$/src/utils/extend.js" />
         <option value="$PROJECT_DIR$/webpack/webpack.config.prod.js" />
         <option value="$PROJECT_DIR$/src/containers/util/popover/index.scss" />
@@ -224,6 +225,7 @@
         <option value="$PROJECT_DIR$/src/utils/fetch.js" />
         <option value="$PROJECT_DIR$/src/models/article.js" />
         <option value="$PROJECT_DIR$/src/containers/article/index.jsx" />
+        <option value="$PROJECT_DIR$/src/containers/article/index.scss" />
       </list>
     </option>
   </component>
@@ -251,9 +253,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1680" />
-    <option name="y" value="56" />
-    <option name="width" value="1680" />
-    <option name="height" value="947" />
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1097" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -390,27 +392,28 @@
       <workItem from="1532610417729" duration="2286000" />
       <workItem from="1532625559795" duration="599000" />
       <workItem from="1533090183691" duration="7088000" />
-      <workItem from="1533610898343" duration="5665000" />
+      <workItem from="1533610898343" duration="5880000" />
+      <workItem from="1533694469545" duration="5391000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198213000" />
+    <option name="totallyTimeSpent" value="203819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="23" width="1920" height="1097" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.61777776" visible="true" weight="0.21748288" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6164818" visible="true" weight="0.21748288" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.369" />
-      <window_info id="npm" order="2" sideWeight="0.38222224" side_tool="true" visible="true" weight="0.21748288" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.369" />
+      <window_info id="npm" order="2" sideWeight="0.38351822" side_tool="true" visible="true" weight="0.21748288" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" sideWeight="0.36842105" side_tool="true" weight="0.24954791" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.325" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.325" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -452,13 +455,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/containers/util/common/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/heightlighter/shCore.css" />
     <entry file="file://$PROJECT_DIR$/public/heightlighter/shThemeDefault.css" />
     <entry file="file://$PROJECT_DIR$/public/heightlighter/shAutoloader.js" />
@@ -626,13 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/article/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="94" column="34" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -738,7 +727,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/home/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
+        <state relative-caret-position="19">
           <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -753,16 +742,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/session.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack/webpack.config.dev.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
+        <state relative-caret-position="1691">
           <caret line="89" column="47" selection-start-line="89" selection-start-column="47" selection-end-line="89" selection-end-column="68" />
         </state>
       </provider>
@@ -776,21 +758,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/fetch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
+        <state relative-caret-position="1273">
           <caret line="70" column="24" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/style/reset.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
+        <state relative-caret-position="266">
           <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/decorators/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
+        <state relative-caret-position="1254">
           <caret line="71" column="36" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
@@ -800,7 +782,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/models/article.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
+        <state>
           <caret line="56" column="70" selection-start-line="56" selection-start-column="70" selection-end-line="56" selection-end-column="70" />
           <folding>
             <element signature="e#0#52#0" expanded="true" />
@@ -808,13 +790,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/session.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="347" column="16" selection-start-line="347" selection-start-column="16" selection-end-line="347" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/article/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="80" column="13" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
+        <state relative-caret-position="115">
+          <caret line="154" column="46" selection-start-line="154" selection-start-column="46" selection-end-line="154" selection-end-column="46" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#1581#2722#0" />
+            <element signature="e#2877#3007#0" />
+            <element signature="e#3135#4129#0" />
+            <element signature="e#4170#4326#0" />
+            <element signature="e#4356#4586#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/article/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
         </state>
       </provider>
     </entry>

@@ -53,6 +53,12 @@
           padding-left: 25px;
           border-bottom: 1px solid rgba(255,255,255,.2);
           border-left: transparent solid 5px;
+          span{
+            display: inline-block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
           &.active{
             border-left: #293c55 solid 5px;
           }
